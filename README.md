@@ -1,2 +1,4 @@
-# AlienWhoopRX5
-2.4GHz transceiver based on XN297LBW
+# AlienWhoopRx
+
+# AlienWhoopRx Features :alien:
+AlienWhoop receiver (code name AlienWhoopRx) 
