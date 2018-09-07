@@ -197,7 +197,7 @@
 <wire x1="-2.1" y1="-1.7" x2="2.1" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="2.1" y1="-1.7" x2="2.1" y2="1.7" width="0.127" layer="21"/>
 <wire x1="2.1" y1="1.7" x2="-2.1" y2="1.7" width="0.127" layer="21"/>
-<circle x="-1.865" y="-2.254" radius="0.22360625" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.016" x2="-1.397" y2="-1.651" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1608,24 +1608,44 @@ Nick Garner - TeleSense</description>
 <part name="GND23" library="AlienWhoop" deviceset="TESTPAD" device=""/>
 <part name="FRAME1" library="alienflight" deviceset="FRAME2" device=""/>
 <part name="SPI_CS" library="AlienWhoop" deviceset="TESTPAD" device=""/>
-<part name="U1" library="AlienWhoop" deviceset="XN297L" device=""/>
+<part name="U1" library="AlienWhoop" deviceset="XN297L" device="">
+<attribute name="PARTNO" value="XN297LBW"/>
+</part>
 <part name="U$6" library="AlienWhoop" deviceset="TESTPAD" device=""/>
 <part name="GND1" library="alienflight" deviceset="GND" device=""/>
-<part name="C9" library="Perfect_0402" deviceset="CAP_0402" device="" value="1uF"/>
+<part name="C9" library="Perfect_0402" deviceset="CAP_0402" device="" value="1uF">
+<attribute name="PARTNO" value="GRM155C71A105KE11D"/>
+</part>
 <part name="GND2" library="alienflight" deviceset="GND" device=""/>
-<part name="L1" library="alienflight" deviceset="MHQ1005P" device="3.6NH" value="3.6nH"/>
-<part name="C2" library="Perfect_0402" deviceset="CAP_0402" device="" value="0.5pF"/>
+<part name="L1" library="alienflight" deviceset="MHQ1005P" device="3.6NH" value="3.6nH">
+<attribute name="PARTNO" value="MHQ1005P3N6ST000"/>
+</part>
+<part name="C2" library="Perfect_0402" deviceset="CAP_0402" device="" value="0.5pF">
+<attribute name="PARTNO" value="VJ0402A0R5BXJCW1BC"/>
+</part>
 <part name="GND3" library="alienflight" deviceset="GND" device=""/>
-<part name="C3" library="Perfect_0402" deviceset="CAP_0402" device="" value="0.5pF"/>
+<part name="C3" library="Perfect_0402" deviceset="CAP_0402" device="" value="0.5pF">
+<attribute name="PARTNO" value="VJ0402A0R5BXJCW1BC"/>
+</part>
 <part name="GND4" library="alienflight" deviceset="GND" device=""/>
-<part name="C7" library="Perfect_0402" deviceset="CAP_0402" device="" value="20pF"/>
-<part name="C6" library="Perfect_0402" deviceset="CAP_0402" device="" value="20pF"/>
+<part name="C7" library="Perfect_0402" deviceset="CAP_0402" device="" value="20pF">
+<attribute name="PARTNO" value="GJM1555C1H200FB01D"/>
+</part>
+<part name="C6" library="Perfect_0402" deviceset="CAP_0402" device="" value="20pF">
+<attribute name="PARTNO" value="GJM1555C1H200FB01D"/>
+</part>
 <part name="GND6" library="alienflight" deviceset="GND" device=""/>
 <part name="GND7" library="alienflight" deviceset="GND" device=""/>
-<part name="R1" library="Perfect_0402" deviceset="RES_0402" device="" value="510R"/>
-<part name="Y1" library="AlienWhoop" deviceset="ECS-160-20-33-CKM-TR" device="16MHZ" value="16MHZ"/>
+<part name="R1" library="Perfect_0402" deviceset="RES_0402" device="" value="510R">
+<attribute name="PARTNO" value="CR0402-FX-5100GLF"/>
+</part>
+<part name="Y1" library="AlienWhoop" deviceset="ECS-160-20-33-CKM-TR" device="16MHZ" value="16MHZ">
+<attribute name="PARTNO" value="ECS-160-20-33-CKM-TR"/>
+</part>
 <part name="GND5" library="alienflight" deviceset="GND" device=""/>
-<part name="C1" library="Perfect_0402" deviceset="CAP_0402" device="" value="1.2pF"/>
+<part name="C1" library="Perfect_0402" deviceset="CAP_0402" device="" value="1.2pF">
+<attribute name="PARTNO" value="0402YA1R2CAT2A"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -12497,26 +12517,26 @@ Nick Garner - TeleSense</description>
 <rectangle x1="133.53415" y1="185.45175" x2="135.09625" y2="185.48985" layer="97"/>
 <rectangle x1="133.68655" y1="185.48985" x2="134.94385" y2="185.52795" layer="97"/>
 <rectangle x1="133.91515" y1="185.52795" x2="134.75335" y2="185.56605" layer="97"/>
-<text x="66.04" y="223.52" size="2.54" layer="97">Designed for NotFastEnuf Silverware Firmware https://github.com/NotFastEnuf/</text>
+<text x="66.04" y="223.52" size="2.54" layer="97">Designed for use with AlienWhoop ZER0 running NFE Silverware Firmware https://github.com/NotFastEnuf/</text>
 <text x="94.6404" y="201.8411" size="2.54" layer="97" font="vector">https://www.facebook.com/alienwhoop/</text>
 <text x="94.9452" y="206.5274" size="2.54" layer="97" font="vector" ratio="12">Follow @AlienWhoop on Facebook - Join the community</text>
 <rectangle x1="86.36" y1="205.74" x2="91.44" y2="210.82" layer="97"/>
 <rectangle x1="185.42" y1="205.74" x2="190.5" y2="210.82" layer="97"/>
 <rectangle x1="185.42" y1="193.04" x2="190.5" y2="198.12" layer="97"/>
-<text x="78.74" y="218.44" size="2.54" layer="97">by AlienWhoop ZER0 Dev Team see GitHub for acknowledgements</text>
+<text x="78.74" y="218.44" size="2.54" layer="97">by AlienWhoop RX-5 Dev Team see GitHub for acknowledgements</text>
 <text x="94.3356" y="190.373" size="2.54" layer="97" font="vector">http://www.alienwhoop.us/git/</text>
 <text x="94.5261" y="195.1355" size="2.54" layer="97" font="vector" ratio="12">AlienWhoop Build Guides, Store, and Latest News</text>
 <rectangle x1="86.36" y1="193.04" x2="91.44" y2="198.12" layer="97"/>
-<text x="81.28" y="231.14" size="6.4516" layer="91" ratio="20">ALIENWHOOP Rx TELEMETRY RECEIVER</text>
+<text x="81.28" y="231.14" size="6.4516" layer="91" ratio="20">ALIENWHOOP RX-5 TELEMETRY RECEIVER</text>
 <rectangle x1="7.62" y1="215.9" x2="50.8" y2="238.76" layer="97"/>
 <rectangle x1="254" y1="215.9" x2="297.18" y2="238.76" layer="97"/>
-<text x="254" y="205.74" size="5.08" layer="91">v20180815A</text>
+<text x="254" y="205.74" size="5.08" layer="91">v20180906A</text>
 <text x="101.6" y="10.16" size="1.778" layer="97" ratio="10">THIS SCHEMATIC IS PROVIDED AS IS WITHOUT
 ANY EXPRESS OR IMPLIED WARRANTIES.
 INCLUDING, BUT NOT LIMITED TO, THE IMPLIED 
 WARRANTIES OF MERCHANTABILITY
 AND FITNESS FOR A PARTICULAR PURPOSE.</text>
-<text x="142.24" y="114.3" size="12.7" layer="91" ratio="20">Rx</text>
+<text x="129.54" y="114.3" size="12.7" layer="91" ratio="20">RX-5</text>
 <wire x1="96.52" y1="25.4" x2="160.02" y2="25.4" width="0.1524" layer="97"/>
 <wire x1="160.02" y1="25.4" x2="160.02" y2="7.62" width="0.1524" layer="97"/>
 <wire x1="160.02" y1="7.62" x2="96.52" y2="7.62" width="0.1524" layer="97"/>
@@ -12526,7 +12546,7 @@ Excalibur (Galen)
 MontiFPV (Michael)
 NotFastEnuf (Travis)
 VelcoFPV (Brian)</text>
-<text x="200.66" y="190.5" size="3.81" layer="97" ratio="20" rot="R90">ZER0 DEVS</text>
+<text x="200.66" y="190.5" size="3.81" layer="97" ratio="20" rot="R90">RX-5 DEVS</text>
 </plain>
 <instances>
 <instance part="U$13" gate="G$1" x="76.2" y="73.66" rot="R180"/>
@@ -12537,32 +12557,49 @@ VelcoFPV (Brian)</text>
 <instance part="FRAME1" gate="G$2" x="175.514" y="4.572"/>
 <instance part="FRAME1" gate="G$3" x="267.462" y="23.368"/>
 <instance part="SPI_CS" gate="G$1" x="76.2" y="76.2" rot="R180"/>
-<instance part="U1" gate="G$1" x="109.22" y="68.58"/>
+<instance part="U1" gate="G$1" x="109.22" y="68.58">
+<attribute name="PARTNO" x="109.22" y="68.58" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="U$6" gate="G$1" x="160.02" y="96.52" rot="R90"/>
 <instance part="GND1" gate="1" x="132.08" y="50.8"/>
-<instance part="C9" gate="G$1" x="93.98" y="55.88"/>
+<instance part="C9" gate="G$1" x="93.98" y="55.88">
+<attribute name="PARTNO" x="93.98" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND2" gate="1" x="93.98" y="50.8"/>
 <instance part="L1" gate="G$1" x="142.24" y="76.2" smashed="yes">
 <attribute name="NAME" x="139.7" y="78.74" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="144.78" y="78.74" size="1.778" layer="96" font="vector"/>
+<attribute name="PARTNO" x="142.24" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="C2" gate="G$1" x="121.92" y="55.88"/>
+<instance part="C2" gate="G$1" x="121.92" y="55.88">
+<attribute name="PARTNO" x="121.92" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="121.92" y="50.8"/>
-<instance part="C3" gate="G$1" x="152.4" y="55.88"/>
+<instance part="C3" gate="G$1" x="152.4" y="55.88">
+<attribute name="PARTNO" x="152.4" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="152.4" y="50.8"/>
-<instance part="C7" gate="G$1" x="180.34" y="55.88"/>
-<instance part="C6" gate="G$1" x="195.58" y="55.88"/>
+<instance part="C7" gate="G$1" x="180.34" y="55.88">
+<attribute name="PARTNO" x="180.34" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C6" gate="G$1" x="195.58" y="55.88">
+<attribute name="PARTNO" x="195.58" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND6" gate="1" x="180.34" y="50.8"/>
 <instance part="GND7" gate="1" x="195.58" y="50.8"/>
-<instance part="R1" gate="G$1" x="200.66" y="73.66"/>
+<instance part="R1" gate="G$1" x="200.66" y="73.66">
+<attribute name="PARTNO" x="200.66" y="73.66" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="Y1" gate="G$1" x="187.96" y="71.12" smashed="yes">
 <attribute name="NAME" x="182.88" y="76.2" size="1.778" layer="95"/>
 <attribute name="VALUE" x="187.96" y="76.2" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="187.96" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND5" gate="1" x="187.96" y="50.8"/>
 <instance part="C1" gate="G$1" x="132.08" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="124.46" y="78.74" size="1.778" layer="95"/>
 <attribute name="VALUE" x="129.54" y="78.74" size="1.778" layer="96"/>
+<attribute name="PARTNO" x="132.08" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 </instances>
 <busses>

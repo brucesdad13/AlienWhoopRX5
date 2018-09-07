@@ -322,7 +322,7 @@ straight</description>
 <wire x1="-2.1" y1="-1.7" x2="2.1" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="2.1" y1="-1.7" x2="2.1" y2="1.7" width="0.127" layer="21"/>
 <wire x1="2.1" y1="1.7" x2="-2.1" y2="1.7" width="0.127" layer="21"/>
-<circle x="-1.865" y="-2.254" radius="0.22360625" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.016" x2="-1.397" y2="-1.651" width="0.127" layer="21"/>
 </package>
 <package name="DFE201612E-INDUCTOR">
 <description>Fixed Inductors 0806 2.2uH 20% 2.4A RDC=0.116ohms</description>
